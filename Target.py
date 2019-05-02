@@ -55,7 +55,7 @@ def down_it(item):
 				print("\033[91mshut<->down\033[0m")
 			time.sleep(.1)
 	except socket.error as e:
-		print("\033[91mno connection! server maybe down\033[0m")
+		print("\033[91koneksi tidak ada! Server mungkin turun \033[0m")
 		#print("\033[91m",e,"\033[0m")
 		time.sleep(.1)
 
@@ -80,7 +80,7 @@ def usage():
 	Ini hanya untuk skrip pengujian server. IP Anda terlihat. \ n
 	penggunaan: python3 hammer.py [-s] [-p] [-t]
 	-h : tolong
-	-s : server ip
+	-s : alamat ip
 	-p : port default 80
 	-t : turbo default 135 \033[0m''')
 	sys.exit()
@@ -130,7 +130,7 @@ if __name__ == '__main__':
 		usage()
 	get_parameters()
 	print("\033[92m",host," port: ",str(port)," turbo: ",str(thr),"\033[0m")
-	print("\033[94mPlease wait...\033[0m")
+	print("\033[94mSilakan tunggu...\033[0m")
 	user_agent()
 	my_bots()
 	time.sleep(5)
