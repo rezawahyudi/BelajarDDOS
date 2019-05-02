@@ -52,10 +52,10 @@ def down_it(item):
 				print ("\033[92m",time.ctime(time.time()),"\033[0m \033[94m <--Reza sedang menyerang target--> \033[0m")
 			else:
 				s.shutdown(1)
-				print("\033[91mshut<->down\033[0m")
+				print("\033[91mBerhenti<->ah\033[0m")
 			time.sleep(.1)
 	except socket.error as e:
-		print("\033[91mno connection! server maybe down\033[0m")
+		print("\033[91mKoneksi tidak ada! Server mungkin turun\033[0m")
 		#print("\033[91m",e,"\033[0m")
 		time.sleep(.1)
 
@@ -130,7 +130,7 @@ if __name__ == '__main__':
 		usage()
 	get_parameters()
 	print("\033[92m",host," port: ",str(port)," turbo: ",str(thr),"\033[0m")
-	print("\033[94mPlease wait...\033[0m")
+	print("\033[94mSilakan tunggu...\033[0m")
 	user_agent()
 	my_bots()
 	time.sleep(5)
