@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 
 # python 3.3.2+ Hammer Dos Script v.1
-# by Can Yalçın
+# by Mr Zipper
 # only for legal purpose
 
 
@@ -139,7 +139,7 @@ if __name__ == '__main__':
 		s.connect((host,int(port)))
 		s.settimeout(1)
 	except socket.error as e:
-		print("\033[91mcheck server ip and port\033[0m")
+		print("\033[91mKesalahan : Cek lagi ip and port target\033[0m")
 		usage()
 	while True:
 		for i in range(int(thr)):
