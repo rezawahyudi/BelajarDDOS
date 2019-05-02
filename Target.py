@@ -52,7 +52,7 @@ def down_it(item):
 				print ("\033[92m",time.ctime(time.time()),"\033[0m \033[94m <--Reza sedang menyerang target--> \033[0m")
 			else:
 				s.shutdown(1)
-				print("\033[91mshut<->down\033[0m")
+				print("\033[91mberhenti<->ah\033[0m")
 			time.sleep(.1)
 	except socket.error as e:
 		print("\033[91mkoneksi tidak ada! Server mungkin turun\033[0m")
