@@ -75,10 +75,10 @@ def dos2():
 
 
 def usage():
-	print (''' \033[92m	Hammer Dos Script v.1 http://www.canyalcin.com/
+	print (''' \033[92m	Hammer Dos Script v.1 http://www.rezawahyudi.com/
 	Adalah tanggung jawab pengguna akhir untuk mematuhi semua hukum yang berlaku.
 	Ini hanya untuk skrip pengujian server. IP Anda terlihat. \ n
-	penggunaan: python3 hammer.py [-s] [-p] [-t]
+	penggunaan: python3 Target.py [-s] [-p] [-t]
 	-h : tolong
 	-s : alamat ip
 	-p : port default 80
